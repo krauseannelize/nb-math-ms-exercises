@@ -2,9 +2,9 @@
 
 ## What is Probability?
 
-Formally, **probability** is defined as a set function $P$ that assigns to each event $A$ in the sample space $S$ (sometimes written $\Omega$) a number $P(A)$, called the probability of the event $A$, while obeying these axioms:
+Formally, **probability** is defined as a set function $P$ that assigns to each event $A$ in the sample space $S$ (sometimes written $\Omega$) a number $P(A)$, called the probability of the event $A$, while obeying these _axioms of probability_ (Kolmogorov’s 3 rules):
 
-| Axiom | Notes | Formula |
+| Axiom | Description | Formula |
 | --- | --- | --- |
 | **Non-negativity** | The probability of any event $P(A)$ must be non-negative | $P(A) \geq 0$ |
 | **Normalization** | The probability of the sample space $P(S)$ is 1 | $P(S) = 1$ |
@@ -19,7 +19,7 @@ $$
 P(A) = \frac{N(A)}{N(S)}
 $$
 
-## Key Terms in Probability
+## Key Terms
 
 | Term | Definition |
 | --- | --- |
@@ -31,3 +31,18 @@ $$
 | **Outcome** | A single result from the sample space |
 | **Random Experiment** | An experiment whose outcome cannot be predicted with certainty in advance, but which has a well‑defined set of possible outcomes |
 | **Sample Space** | The set of all possible outcomes of an experiment |
+
+## Set Operations
+
+Before we can state and prove useful theorems in probability, we need to recall some basic **set operations**. Since events are sets of outcomes, these operations give us the tools to combine, compare, and manipulate events mathematically.
+
+| Operation | Description | Formula |
+| --- | --- | --- |
+| **Empty set** | The impossible event with no outcomes | $\varnothing$ |
+| **Union** | All the elements of set $A$ and all the elements of set $B$ | $A \cup B$ |
+| **Intersection** | All the elements that are present in both $A$ and $B$ | $A \cap B$ |
+| **Complement** | The event that $A$ does not occur | $A'$ |
+| **Subset** | All elements of $A$ are also elements of $B$ | $A \subseteq B$ |
+| **Cartesian product ($A \times B$)** | The set of all ordered pairs $(a,b)$ with $a$ in $A$ and $b$ in $B$ | $A \times B = \{(a,b) \mid a \in A \text{ and}\ b \in B\}$ |
+
+## Theorems From Axioms & Set Operations
