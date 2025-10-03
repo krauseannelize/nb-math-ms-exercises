@@ -43,6 +43,6 @@ Before we can state and prove useful theorems in probability, we need to recall 
 | **Intersection** | All the elements that are present in both $A$ and $B$ | $A \cap B$ |
 | **Complement** | The event that $A$ does not occur | $A'$ |
 | **Subset** | All elements of $A$ are also elements of $B$ | $A \subseteq B$ |
-| **Cartesian product ($A \times B$)** | The set of all ordered pairs $(a,b)$ with $a$ in $A$ and $b$ in $B$ | $A \times B =$ {$(a,b) \mid a \in A \text{ and}\ b \in B$} |
+| **Cartesian product ($A \times B$)** | The set of all ordered pairs $(a,b)$ with $a$ in $A$ and $b$ in $B$ | $A \times B =$ { $(a,b) \mid a \in A \text{ and}\ b \in B$ } |
 
 ## Theorems From Axioms & Set Operations
