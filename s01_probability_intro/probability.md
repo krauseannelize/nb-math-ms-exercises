@@ -1,6 +1,15 @@
 # Probability
 
-## What is Probability?
+## Table of Contents
+
+1. [What is Probability?](#what-is-probability)
+2. [Key Terms](#key-terms)
+3. [Set Operations](#set-operations)
+4. [Probability Interpretations](#probability-interpretations)
+5. [Probability Theorems](#probability-theorems)
+6. [Counting Techniques](#6-counting-techniques)
+
+## 1. What is Probability?
 
 Formally, **probability** is defined as a set function $P$ that assigns to each event $A$ in the sample space $S$ (sometimes written $\Omega$) a number $P(A)$, called the probability of the event $A$, while obeying these _axioms of probability_ (Kolmogorov’s 3 rules):
 
@@ -16,7 +25,9 @@ $\text{Probability(Event)} = \frac{\text{Number of elements in the event}}{\text
 
 $P(A) = \frac{N(A)}{N(S)}$
 
-## Key Terms
+[(back to top)](#table-of-contents)
+
+## 2. Key Terms
 
 | Term | Definition |
 | --- | --- |
@@ -29,7 +40,9 @@ $P(A) = \frac{N(A)}{N(S)}$
 | **Random Experiment** | An experiment whose outcome cannot be predicted with certainty in advance, but which has a well‑defined set of possible outcomes |
 | **Sample Space** | The set of all possible outcomes of an experiment |
 
-## Set Operations
+[(back to top)](#table-of-contents)
+
+## 3. Set Operations
 
 Before we can state and prove useful theorems in probability, we need to recall some basic **set operations**. Since events are sets of outcomes, these operations give us the tools to combine, compare, and manipulate events mathematically.
 
@@ -42,7 +55,9 @@ Before we can state and prove useful theorems in probability, we need to recall 
 | **Subset** | All elements of $A$ are also elements of $B$ | $A \subseteq B$ |
 | **Cartesian product ($A \times B$)** | The set of all ordered pairs $(a,b)$ with $a$ in $A$ and $b$ in $B$ | $A \times B =$ { $(a,b) \mid a \in A \text{ and}\ b \in B$ } |
 
-## Probability Interpretations
+[(back to top)](#table-of-contents)
+
+## 4. Probability Interpretations
 
 Probability can be understood in different ways depending on how we assign or justify the numbers that describe uncertainty. In modern mathematics, all of these views are unified under the axiomatic framework, which provides the rigorous foundation for probability theory. The main interpretations are summarized below.
 
@@ -53,7 +68,9 @@ Probability can be understood in different ways depending on how we assign or ju
 | **Subjective** | Probability reflects personal belief or expert judgment, often used when data is limited or uncertainty is high | A doctor estimates a 70% chance of recovery |
 | **Axiomatic** | Probability is defined as a set function $P$ that satisfies Kolmogorov’s three axioms. This framework provides the rigorous foundation from which all probability theorems are derived | _See theorems section below_ |
 
-## Probability Theorems
+[(back to top)](#table-of-contents)
+
+## 5. Probability Theorems
 
 Using the language of set theory and the axiomatic definition of probability, we can derive several fundamental theorems. These theorems capture the essential properties of probability and provide the tools for solving more complex problems. Each theorem follows directly from the axioms and the definitions of events, complements, unions, and intersections.
 
@@ -116,7 +133,7 @@ To calculate the probability of each event:
 
 $P(A) = \frac{N(A)}{N(S)} = \frac{6}{6} = 1$
 
-$P(B) = \frac{N(B)}{N(S)} = \frac{3}{6} = \tfrac{1}{2} = 0.5$
+$P(B) = \frac{N(B)}{N(S)} = \frac{3}{6} = \frac{1}{2} = 0.5$
 
 In both cases, the probability of the event lies between 0 and 1, confirming that $0 \leq P(E) \leq 1$ for any event $E$.
 
@@ -136,9 +153,9 @@ To calculate the probability of each event:
 
 $P(A) = \frac{N(A)}{N(S)} = \frac{18}{30} = \frac{3}{5}$
 
-$P(B) = \frac{N(B)}{N(S)} = \frac{15}{30} = \tfrac{1}{2}$
+$P(B) = \frac{N(B)}{N(S)} = \frac{15}{30} = \frac{1}{2}$
 
-$A \cap B = \frac{10}{30} = \tfrac{1}{3}$ 
+$A \cap B = \frac{10}{30} = \frac{1}{3}$ 
 
 The probability that a randomly selected student either plays a musical instrument or speaks a second language is:
 
@@ -147,6 +164,71 @@ $P(A \cup B) = P(A) + P(B) - P(A \cap B)$
 $P(A \cup B) = \frac{18}{30} + \frac{15}{30} - \frac{10}{30} = \frac{18 + 15 - 10}{30} = \frac{23}{30}$
 
 ---
+
+[(back to top)](#table-of-contents)
+
+## 6. Counting Techniques
+
+**Counting techniques** provide systematic methods to determine how many outcomes are possible in a given situation, ensuring we neither overlook possibilities nor double‑count them.
+
+| Technique | Description | Formula / Expression |
+| --- | --- | --- |
+| **Additive Principle (Rule of Sum)** | When a task can be done in $m$ ways or $n$ ways, two distinct events that cannot happen simultaneously (mutually exclusive) | $m + n$ |
+| **Multiplicative Principle (Rule of Product)** | When a task can be done in $m$ ways and another sequential or independent task in $n$ ways | $m \times n$ |
+| **Full Permutations (no repetition)** | Ordering all $n$ distinct objects | $P_n = n \times (n - 1) \times (n - 2) \dots \times 1 = n!$ |
+| **K‑Permutations (no repetition)** | Ordering $r$ objects chosen from $n$ distinct objects | $P(n,r) = \frac{n!}{(n-r)!}$ |
+
+---
+
+### Example | Rule of Sum
+
+You can pick 1 snack. There are 3 types of fruit (apple, banana, orange) and 2 types of granola bars. The total number of ways to make a choice is:
+
+$3 + 2 = 5$
+
+---
+
+### Example | Rule of Product
+
+Pick 1 outfit. You have 4 shirts and 3 pairs of pants. The total number of combinations is:
+
+$ 4 \times 3 = 12 \text{ outfits}$
+
+---
+
+### Example | Rules of Sum and Product
+
+Imagine a school event where students can choose between participating in a science fair or a sports competition. There are 5 science fair categories and 4 sports activities. Additionally, each participant must choose one of 3 available T-shirt colors for the event.
+How many combinations are there for choosing an activity and a T-shirt?
+
+Choosing an activity:  $5 + 4 = 9$ choices  
+Choosing an activity and a t-shirt color:  $9 \times 3 = 27$ choices  
+
+---
+
+### Example | Full Permutations (no repetition)
+
+You have 4 different books and you want to arrange them on a shelf. The total number of ways to arrange the books is:
+
+$P_4 = 4! = 4 \times 3 \times 2 \times 1 = 24$
+
+---
+
+### Example | K-Permutations (no repetition)
+
+8 students compete for gold, silver, and bronze medals. How many possible ways can the medal winners be arranged?
+
+Students competing:  $n = 8$  
+Positions to fill:  $r = 3$  
+
+$P(n,r) = \frac{n!}{(n-r)!}$  
+$P(8,3) = \frac{8!}{(8-3)!} = \frac{8!}{5!} = \frac{8 \times 7 \times 6 \times 5 \times 4 \times 3 \times 2 \times 1}{5 \times 4 \times 3 \times 2 \times 1} = 8 \times 7 \times 6 = 336$
+
+The common $5 \times 4 \times 3 \times 2 \times 1$ is cancelled.
+
+---
+
+[(back to top)](#table-of-contents)
 
 ## Probability Exercises
 

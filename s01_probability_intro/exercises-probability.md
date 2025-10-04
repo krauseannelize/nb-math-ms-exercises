@@ -1,4 +1,4 @@
-# Probability Exercises
+# Exercises | Probability
 
 ## Exercise 1
 
@@ -56,7 +56,7 @@ _Note: Use additive principle for 2 distinct events that cannot happen simultane
 
 $P(D) = P(A) + P(C) = \frac{15}{30} + \frac{5}{30} = \frac{20}{30} = \frac{2}{3} \approx 0.667$
 
-### ESolution | vent E
+### Solution | Event E
 
 One ball cannot be white and black, thus:
 
