@@ -12,12 +12,9 @@ Formally, **probability** is defined as a set function $P$ that assigns to each 
 
 Informally, when all outcomes are equally likely, **probability** is the ratio of the number of elements in the event to the number of elements in the sample. It helps us understand and quantify uncertainty. The probability of an event is a number between 0 and 1. The larger the probability, the more likely the event is to occur. We can write this as:
 
-$$
-\text{Probability(Event)} = \frac{\text{Number of elements in the event}}{\text{Number of elements in the sample}}
-$$
-$$
-P(A) = \frac{N(A)}{N(S)}
-$$
+$\text{Probability(Event)} = \frac{\text{Number of elements in the event}}{\text{Number of elements in the sample}}$
+
+$P(A) = \frac{N(A)}{N(S)}$
 
 ## Key Terms
 
@@ -45,4 +42,108 @@ Before we can state and prove useful theorems in probability, we need to recall 
 | **Subset** | All elements of $A$ are also elements of $B$ | $A \subseteq B$ |
 | **Cartesian product ($A \times B$)** | The set of all ordered pairs $(a,b)$ with $a$ in $A$ and $b$ in $B$ | $A \times B =$ { $(a,b) \mid a \in A \text{ and}\ b \in B$ } |
 
-## Theorems From Axioms & Set Operations
+## Probability Interpretations
+
+Probability can be understood in different ways depending on how we assign or justify the numbers that describe uncertainty. In modern mathematics, all of these views are unified under the axiomatic framework, which provides the rigorous foundation for probability theory. The main interpretations are summarized below.
+
+| Type / Approach | Definition & Context | Example |
+| --- | --- | --- |
+| **Classical (Theoretical)** | Probability is calculated as the ratio of favorable outcomes to total equally likely outcomes. Used in symmetric experiments where all outcomes are equally likely | Rolling a fair die: $P(\text{even}) = 3/6 = 0.5$ |
+| **Empirical (Relative Frequency)** | Probability is estimated from past data or repeated trials, using the proportion of times an event occurs | It rained on 90 of 365 days → $P(\text{rain}) \approx 90/365$ |
+| **Subjective** | Probability reflects personal belief or expert judgment, often used when data is limited or uncertainty is high | A doctor estimates a 70% chance of recovery |
+| **Axiomatic** | Probability is defined as a set function $P$ that satisfies Kolmogorov’s three axioms. This framework provides the rigorous foundation from which all probability theorems are derived | _See theorems section below_ |
+
+## Probability Theorems
+
+Using the language of set theory and the axiomatic definition of probability, we can derive several fundamental theorems. These theorems capture the essential properties of probability and provide the tools for solving more complex problems. Each theorem follows directly from the axioms and the definitions of events, complements, unions, and intersections.
+
+| # | Theorem | Formula |
+|---|---------|---------|
+| 1 | **Complement Rule**: The probability of an event is one minus the probability of its complement | $P(A) = 1 - P(A')$ |
+| 2 | **Impossible Event**: The probability of the empty set is zero | $P(\varnothing) = 0$ |
+| 3 | **Subset Rule**: If $A$ is a subset of $B$, then the probability of $A$ is less than or equal to the probability of $B$ | If $A \subseteq B$, then $P(A) \leq P(B)$ |
+| 4 | **Bounds of Probability**: The probability of any event lies between 0 and 1 | $0 \leq P(A) \leq 1$ |
+| 5 | **Inclusion–Exclusion (Two Events)**: The probability of the union of two events is the sum of their probabilities minus their intersection | $P(A \cup B) = P(A) + P(B) - P(A \cap B)$ |
+
+---
+
+### Example | Theorem 1
+
+A standard deck of cards has 52 cards. Let event $A$ be drawing a Heart from the deck and event $B$ be drawing any card that is not a Heart.
+
+$P(A) = \frac{N(A)}{N(S)} = \frac{\text{Number of Heart cards}}{\text{Number of cards in deck}} = \frac{13}{52} = \frac{1}{4} = 0.25$
+
+$P(B) = \frac{N(A)}{N(S)} = \frac{\text{Number of Non-Heart cards}}{\text{Number of cards in deck}} = \frac{39}{52} = \frac{3}{4} = 0.75$
+
+Here, $B$ is the complement of $A$ and thus according to the complement rule:
+
+$P(A) = 1 - P(A') = 1 - P(B) = 1 - 0.75 = 0.25$
+
+---
+
+### Example | Theorem 2
+
+When rolling a standard six-sided die, there are no outcomes where the result is greater than 6 (event A). This means:
+
+$A = \varnothing$
+
+Therefore, the probability of this event is:
+
+$P(A) = 0$
+
+---
+
+### Example | Theorem 3  
+
+From a standard deck of 52 cards, let event $A$ be drawing a red queen and event $B$ be drawing any red card. Since every red queen is also a red card, we have $A \subseteq B$.
+
+$P(A) = \frac{N(A)}{N(S)} = \frac{\text{Queen of Hearts, Queen of Diamonds}}{\text{Number of cards in deck}} = \frac{2}{52} = \frac{1}{26} \approx 0.0385$
+
+$P(B) = \frac{N(B)}{N(S)} = \frac{\text{Number of red cards}}{\text{Number of cards in deck}} = \frac{26}{52} = \frac{1}{2} = 0.5$
+
+Therefore, $P(A) \leq P(B)$, which confirms the subset rule.
+
+---
+
+### Example | Theorem 4
+
+When rolling a standard six‑sided die, let:
+
+$A = \{1,2,3,4,5,6\}$ (all possible outcomes)  
+$B = \{2,4,6\}$ (even numbers)
+
+To calculate the probability of each event:
+
+$P(A) = \frac{N(A)}{N(S)} = \frac{6}{6} = 1$
+
+$P(B) = \frac{N(B)}{N(S)} = \frac{3}{6} = \tfrac{1}{2} = 0.5$
+
+In both cases, the probability of the event lies between 0 and 1, confirming that $0 \leq P(E) \leq 1$ for any event $E$.
+
+---
+
+### Example | Theorem 5
+
+Consider a classroom of 30 students:
+
+| Event | Description | Notation |
+|-------|-------------|----------|
+| $A$   | Student plays a musical instrument | $N(A) = 18$ |
+| $B$   | Student speaks a second language   | $N(B) = 15$ |
+| $A \cap B$ | Student both plays a musical instrument and speaks a second language | $N(A \cap B) = 10$ |
+
+To calculate the probability of each event:
+
+$P(A) = \frac{N(A)}{N(S)} = \frac{18}{30} = \frac{3}{5}$
+
+$P(B) = \frac{N(B)}{N(S)} = \frac{15}{30} = \tfrac{1}{2}$
+
+$A \cap B = \frac{10}{30} = \tfrac{1}{3}$ 
+
+The probability that a randomly selected student either plays a musical instrument or speaks a second language is:
+
+$P(A \cup B) = P(A) + P(B) - P(A \cap B)$
+
+$P(A \cup B) = \frac{18}{30} + \frac{15}{30} - \frac{10}{30} = \frac{18 + 15 - 10}{30} = \frac{23}{30}$
+
+---
