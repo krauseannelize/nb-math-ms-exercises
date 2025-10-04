@@ -147,3 +147,7 @@ $P(A \cup B) = P(A) + P(B) - P(A \cap B)$
 $P(A \cup B) = \frac{18}{30} + \frac{15}{30} - \frac{10}{30} = \frac{18 + 15 - 10}{30} = \frac{23}{30}$
 
 ---
+
+## Probability Exercises
+
+Practice problems to calculate probability can be viewed [here](/s01_probability_intro/probability-exercises.md).
