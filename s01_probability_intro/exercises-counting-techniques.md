@@ -48,6 +48,8 @@ $P_n = P_6 = 6! = 720$
 
 ---
 
+[(back to top)](#table-of-contents)
+
 ## K-Permutations (no repetition)
 
 ### Exercise 1
@@ -85,6 +87,8 @@ $P(n,r) = \frac{n!}{(n-r)!}$
 $P(7,3) = \frac{7!}{(7-3)!} = \frac{7!}{4!} = \frac{7 \times \ 6 \times 5 \times 4 \times 3 \times \ 2 \times 1}{4 \times 3 \times \ 2 \times 1} = 7 \times \ 6 \times 5 = 210$
 
 ---
+
+[(back to top)](#table-of-contents)
 
 ## Combinations (no repetition)
 

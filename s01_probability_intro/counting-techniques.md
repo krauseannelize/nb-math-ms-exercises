@@ -25,7 +25,7 @@ $3 + 2 = 5$
 
 Pick 1 outfit. You have 4 shirts and 3 pairs of pants. The total number of combinations is:
 
-$ 4 \times 3 = 12 \text{ outfits}$
+$4 \times 3 = 12 \text{ outfits}$
 
 ---
 

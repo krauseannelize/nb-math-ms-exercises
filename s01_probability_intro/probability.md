@@ -164,7 +164,7 @@ $P(A \cup B) = \frac{18}{30} + \frac{15}{30} - \frac{10}{30} = \frac{18 + 15 - 1
 
 ---
 
-Proceed to next section: [Probability Exercises](/s01_probability_intro/probability-exercises.md)
+Proceed to next section: [Probability Exercises](/s01_probability_intro/exercises-probability.md)
 
 [(back to top)](#table-of-contents)  
 [(back to README)](/README.md)
