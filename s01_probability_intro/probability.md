@@ -20,9 +20,9 @@ Formally, **probability** is defined as a set function $P$ that assigns to each 
 
 Informally, when all outcomes are equally likely, **probability** is the ratio of the number of elements in the event to the number of elements in the sample. It helps us understand and quantify uncertainty. The probability of an event is a number between 0 and 1. The larger the probability, the more likely the event is to occur. We can write this as:
 
-$\text{Probability(Event)} = \frac{\text{Number of elements in the event}}{\text{Number of elements in the sample}}$
+$\text{Probability(Event)} = \dfrac{\text{Number of elements in the event}}{\text{Number of elements in the sample}}$
 
-$P(A) = \frac{N(A)}{N(S)}$
+$P(A) = \dfrac{N(A)}{N(S)}$
 
 [(back to top)](#table-of-contents)
 
@@ -62,8 +62,8 @@ Probability can be understood in different ways depending on how we assign or ju
 
 | Type / Approach | Definition & Context | Example |
 | --- | --- | --- |
-| **Classical (Theoretical)** | Probability is calculated as the ratio of favorable outcomes to total equally likely outcomes. Used in symmetric experiments where all outcomes are equally likely | Rolling a fair die: $P(\text{even}) = 3/6 = 0.5$ |
-| **Empirical (Relative Frequency)** | Probability is estimated from past data or repeated trials, using the proportion of times an event occurs | It rained on 90 of 365 days → $P(\text{rain}) \approx 90/365$ |
+| **Classical (Theoretical)** | Probability is calculated as the ratio of favorable outcomes to total equally likely outcomes. Used in symmetric experiments where all outcomes are equally likely | Rolling a fair die: $P(\text{even}) = \frac{3}{6} = 0.5$ |
+| **Empirical (Relative Frequency)** | Probability is estimated from past data or repeated trials, using the proportion of times an event occurs | It rained on 90 of 365 days → $P(\text{rain}) \approx \frac{90}{365}$ |
 | **Subjective** | Probability reflects personal belief or expert judgment, often used when data is limited or uncertainty is high | A doctor estimates a 70% chance of recovery |
 | **Axiomatic** | Probability is defined as a set function $P$ that satisfies Kolmogorov’s three axioms. This framework provides the rigorous foundation from which all probability theorems are derived | _See theorems section below_ |
 
@@ -87,9 +87,9 @@ Using the language of set theory and the axiomatic definition of probability, we
 
 A standard deck of cards has 52 cards. Let event $A$ be drawing a Heart from the deck and event $B$ be drawing any card that is not a Heart.
 
-$P(A) = \frac{N(A)}{N(S)} = \frac{\text{Number of Heart cards}}{\text{Number of cards in deck}} = \frac{13}{52} = \frac{1}{4} = 0.25$
+$P(A) = \dfrac{N(A)}{N(S)} = \dfrac{\text{Number of Heart cards}}{\text{Number of cards in deck}} = \dfrac{13}{52} = \dfrac{1}{4} = 0.25$
 
-$P(B) = \frac{N(A)}{N(S)} = \frac{\text{Number of Non-Heart cards}}{\text{Number of cards in deck}} = \frac{39}{52} = \frac{3}{4} = 0.75$
+$P(B) = \dfrac{N(A)}{N(S)} = \dfrac{\text{Number of Non-Heart cards}}{\text{Number of cards in deck}} = \dfrac{39}{52} = \dfrac{3}{4} = 0.75$
 
 Here, $B$ is the complement of $A$ and thus according to the complement rule:
 
@@ -113,9 +113,9 @@ $P(A) = 0$
 
 From a standard deck of 52 cards, let event $A$ be drawing a red queen and event $B$ be drawing any red card. Since every red queen is also a red card, we have $A \subseteq B$.
 
-$P(A) = \frac{N(A)}{N(S)} = \frac{\text{Queen of Hearts, Queen of Diamonds}}{\text{Number of cards in deck}} = \frac{2}{52} = \frac{1}{26} \approx 0.0385$
+$P(A) = \dfrac{N(A)}{N(S)} = \dfrac{\text{Queen of Hearts, Queen of Diamonds}}{\text{Number of cards in deck}} = \dfrac{2}{52} = \frac{1}{26} \approx 0.0385$
 
-$P(B) = \frac{N(B)}{N(S)} = \frac{\text{Number of red cards}}{\text{Number of cards in deck}} = \frac{26}{52} = \frac{1}{2} = 0.5$
+$P(B) = \dfrac{N(B)}{N(S)} = \dfrac{\text{Number of red cards}}{\text{Number of cards in deck}} = \dfrac{26}{52} = \dfrac{1}{2} = 0.5$
 
 Therefore, $P(A) \leq P(B)$, which confirms the subset rule.
 
@@ -130,9 +130,9 @@ $B = \{2,4,6\}$ (even numbers)
 
 To calculate the probability of each event:
 
-$P(A) = \frac{N(A)}{N(S)} = \frac{6}{6} = 1$
+$P(A) = \dfrac{N(A)}{N(S)} = \dfrac{6}{6} = 1$
 
-$P(B) = \frac{N(B)}{N(S)} = \frac{3}{6} = \frac{1}{2} = 0.5$
+$P(B) = \dfrac{N(B)}{N(S)} = \dfrac{3}{6} = \dfrac{1}{2} = 0.5$
 
 In both cases, the probability of the event lies between 0 and 1, confirming that $0 \leq P(E) \leq 1$ for any event $E$.
 
@@ -150,11 +150,11 @@ Consider a classroom of 30 students:
 
 To calculate the probability of each event:
 
-$P(A) = \frac{N(A)}{N(S)} = \frac{18}{30} = \frac{3}{5}$
+$P(A) = \dfrac{N(A)}{N(S)} = \dfrac{18}{30} = \dfrac{3}{5}$
 
-$P(B) = \frac{N(B)}{N(S)} = \frac{15}{30} = \frac{1}{2}$
+$P(B) = \dfrac{N(B)}{N(S)} = \dfrac{15}{30} = \dfrac{1}{2}$
 
-$A \cap B = \frac{10}{30} = \frac{1}{3}$ 
+$A \cap B = \dfrac{10}{30} = \dfrac{1}{3}$ 
 
 The probability that a randomly selected student either plays a musical instrument or speaks a second language is:
 
