@@ -109,3 +109,7 @@ $P(C) = 1 - 0.30 = 0.70$
 70% of the population smokes neither cigars nor cigarettes.
 
 ---
+
+Proceed to next section: [Counting Techniques](/s01_probability_intro/counting-techniques.md)
+
+[(back to README)](/README.md)
