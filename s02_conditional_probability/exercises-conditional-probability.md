@@ -77,11 +77,29 @@ $P(A \cap B) = P(A) \times P(B \mid A) = \dfrac{3}{10} \times 1 = \dfrac{3}{10}$
 
 $P(A \mid B) = \dfrac{P(A \cap B)}{P(B)} = \dfrac{3}{10} \div \dfrac{1}{2} = \dfrac{3}{10} \times \dfrac{2}{1} = \dfrac{3 \times 2}{10 \times 1} = \dfrac{6}{10} = \dfrac{3}{5}$
 
+The probability that the first marble is blue given that it is known not to be red is $\dfrac{3}{5}$ or 0.60.
+
 ---
 
 ## Exercise 5
 
 A company has 60 employees, 20 of whom are in management. If a randomly selected employee is in a meeting and 15 managers are currently in meetings while 25 non-managers are also in meeting, what is the probability that the employee is a manager?
+
+$A$ | Employee is a manager  
+$B$ | Employee is not a manager  
+$C$ | Employee is in a meeting
+
+$P(A) = \dfrac{20}{60} = \dfrac{1}{3}$
+
+$P(B) = \dfrac{40}{60} = \dfrac{2}{3}$
+
+$P(C) = \dfrac{15 + 25}{60} = \dfrac{40}{60} = \dfrac{2}{3}$
+
+$P(A \cap C) = \dfrac{15}{60} = \dfrac{1}{4}$
+
+$P(A \mid C) = \dfrac{P(A \cap C)}{P(C)} = \dfrac{1}{4} \div \dfrac{2}{3} = \dfrac{1}{4} \times \dfrac{3}{2} = \dfrac{1 \times 3}{4 \times 2} = \dfrac{3}{8}$
+
+The probability of selecting a manager given that they are in a meeting is $\dfrac{3}{8}$ or 0.38.
 
 ---
 
@@ -91,5 +109,18 @@ A factory produces 100 lightbulbs, of which 10 are defective. Two lightbulbs are
 
 1. What is the probability that the first lightbulb selected is defective and the second lightbulb is not defective?
 2. Use the multiplication rule to calculate the joint probability of these two events.
+
+**Solution 1**
+
+$A$ | First lightbulb is defective
+$B$ | Second lightbulb is not defective
+
+$P(A) = \dfrac{10}{100} = \dfrac{1}{10}$
+
+$P(B \mid A) = \dfrac{90}{99} = \dfrac{10}{11} \approx 0.91$
+
+**Solution 2**
+
+$P(A \cap B) = P(A) \times P(B \mid A) = \dfrac{1}{10} \times \dfrac{10}{11} = \dfrac{1 \times 10}{10 \times 11} = \dfrac{10}{110} = \dfrac{1}{11} = 0.091$
 
 ---
