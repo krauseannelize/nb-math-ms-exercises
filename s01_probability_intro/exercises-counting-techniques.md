@@ -56,8 +56,9 @@ $P_n = P_6 = 6! = 720$
 
 How many ways there are to create a password from letters A,B,C of a length 2?
 
-$P(n,r) = \frac{n!}{(n-r)!}$  
-$P(3,2) = \frac{3!}{(3-2)!} = \frac{3!}{1!} = \frac{3 \times 2 \times 1}{1} = \frac{6}{1} = 6$
+$P(n,r) = \dfrac{n!}{(n-r)!}$  
+
+$P(3,2) = \dfrac{3!}{(3-2)!} = \dfrac{3!}{1!} = \dfrac{3 \times 2 \times 1}{1} = \dfrac{6}{1} = 6$
 
 ---
 
@@ -65,8 +66,9 @@ $P(3,2) = \frac{3!}{(3-2)!} = \frac{3!}{1!} = \frac{3 \times 2 \times 1}{1} = \f
 
 Imagine you need to create a 4-character password using distinct digits from 0 to 9. In how many ways can you do it given that you can use each digit only once (no repetitions)?
 
-$P(n,r) = \frac{n!}{(n-r)!}$  
-$P(10,4) = \frac{10!}{(10-4)!} = \frac{10!}{6!} = 10 \times 9 \times 8 \times 7 = 5,040$
+$P(n,r) = \dfrac{n!}{(n-r)!}$  
+
+$P(10,4) = \dfrac{10!}{(10-4)!} = \dfrac{10!}{6!} = 10 \times 9 \times 8 \times 7 = 5,040$
 
 ---
 
@@ -74,8 +76,11 @@ $P(10,4) = \frac{10!}{(10-4)!} = \frac{10!}{6!} = 10 \times 9 \times 8 \times 7 
 
 A school is electing a President, Vice President, and Secretary from 7 candidates. How many different ways can these positions be assigned?
 
-$P(n,r) = \frac{n!}{(n-r)!}$  
-$P(7,3) = \frac{7!}{(7-3)!} = \frac{7!}{4!} = \frac{7 \times \ 6 \times 5 \times 4 \times 3 \times \ 2 \times 1}{4 \times 3 \times \ 2 \times 1} = 7 \times \ 6 \times 5 = 210$
+$P(n,r) = \dfrac{n!}{(n-r)!}$  
+
+$P(7,3) = \dfrac{7!}{(7-3)!} = \dfrac{7!}{4!} = \dfrac{7 \times \ 6 \times 5 \times 4 \times 3 \times \ 2 \times 1}{4 \times 3 \times \ 2 \times 1}$
+
+$\quad \quad \quad = 7 \times \ 6 \times 5 = 210$
 
 ---
 
@@ -83,8 +88,11 @@ $P(7,3) = \frac{7!}{(7-3)!} = \frac{7!}{4!} = \frac{7 \times \ 6 \times 5 \times
 
 How many ways can 7 runners be arranged in a race where only the top 3 positions matter?
 
-$P(n,r) = \frac{n!}{(n-r)!}$  
-$P(7,3) = \frac{7!}{(7-3)!} = \frac{7!}{4!} = \frac{7 \times \ 6 \times 5 \times 4 \times 3 \times \ 2 \times 1}{4 \times 3 \times \ 2 \times 1} = 7 \times \ 6 \times 5 = 210$
+$P(n,r) = \dfrac{n!}{(n-r)!}$  
+
+$P(7,3) = \dfrac{7!}{(7-3)!} = \dfrac{7!}{4!} = \dfrac{7 \times \ 6 \times 5 \times 4 \times 3 \times \ 2 \times 1}{4 \times 3 \times \ 2 \times 1}$
+
+$\quad \quad \quad = 7 \times \ 6 \times 5 = 210$
 
 ---
 
@@ -96,8 +104,11 @@ $P(7,3) = \frac{7!}{(7-3)!} = \frac{7!}{4!} = \frac{7 \times \ 6 \times 5 \times
 
 Four friends have three movie tickets. In how many ways can a group of three friends be formed to go to the movies? The order in which the friends are chosen doesn't matter.
 
-$C(n,r) = \frac{n!}{r!(n-r)!}$  
-$C(4,3) = \frac{4!}{3!(4-3)!} = \frac{4!}{3! \cdot 1!} = \frac{4 \times 3 \times \ 2 \times 1}{(3 \times \ 2 \times 1)(1)} = \frac{4}{1} = 4$
+$C(n,r) = \dfrac{n!}{r!(n-r)!}$  
+
+$C(4,3) = \dfrac{4!}{3!(4-3)!} = \dfrac{4!}{3! \cdot 1!}$
+
+$\quad \quad \quad = \dfrac{4 \times 3 \times \ 2 \times 1}{(3 \times \ 2 \times 1)(1)} = \dfrac{4}{1} = 4$
 
 ---
 
@@ -105,8 +116,13 @@ $C(4,3) = \frac{4!}{3!(4-3)!} = \frac{4!}{3! \cdot 1!} = \frac{4 \times 3 \times
 
 A library has **7 different novels**, and you want to **borrow 4** of them to read over the summer. The order in which you choose the books doesn't matter.
 
-$C(n,r) = \frac{n!}{r!(n-r)!}$  
-$C(7,4) = \frac{7!}{4!(7-4)!} = \frac{7!}{4! \cdot 3!} = \frac{7 \times \ 6 \times 5 \times 4 \times 3 \times \ 2 \times 1}{(4 \times 3 \times \ 2 \times 1)(3 \times 2 \times 1)} = \frac{7 \times 6 \times 5}{3 \times 2 \times 1} = \frac{210}{6} = 35$
+$C(n,r) = \dfrac{n!}{r!(n-r)!}$  
+
+$C(7,4) = \dfrac{7!}{4!(7-4)!} = \dfrac{7!}{4! \cdot 3!}$
+
+$\quad \quad \quad = \dfrac{7 \times \ 6 \times 5 \times 4 \times 3 \times \ 2 \times 1}{(4 \times 3 \times \ 2 \times 1)(3 \times 2 \times 1)}$
+
+$\quad \quad \quad = \dfrac{7 \times 6 \times 5}{3 \times 2 \times 1} = \dfrac{210}{6} = 35$
 
 ---
 
@@ -114,8 +130,13 @@ $C(7,4) = \frac{7!}{4!(7-4)!} = \frac{7!}{4! \cdot 3!} = \frac{7 \times \ 6 \tim
 
 A bakery offers **8 different types of muffins**, and you want to buy a box of **3 different muffins** to share with friends. How many different combinations of 3 muffins can you choose?
 
-$C(n,r) = \frac{n!}{r!(n-r)!}$  
-$C(8,3) = \frac{8!}{3!(8-3)!} = \frac{8!}{3! \cdot 5!} = \frac{8 \times 7 \times \ 6 \times 5 \times 4 \times 3 \times \ 2 \times 1}{(3 \times \ 2 \times 1)(5 \times 4 \times 3 \times 2 \times 1)} = \frac{8 \times 7 \times 6}{3 \times 2 \times 1} = \frac{336}{6} = 56$
+$C(n,r) = \dfrac{n!}{r!(n-r)!}$  
+
+$C(8,3) = \dfrac{8!}{3!(8-3)!} = \dfrac{8!}{3! \cdot 5!}$
+
+$\quad \quad \quad = \dfrac{8 \times 7 \times \ 6 \times 5 \times 4 \times 3 \times \ 2 \times 1}{(3 \times \ 2 \times 1)(5 \times 4 \times 3 \times 2 \times 1)}$
+
+$\quad \quad \quad = \dfrac{8 \times 7 \times 6}{3 \times 2 \times 1} = \dfrac{336}{6} = 56$
 
 ---
 
@@ -123,8 +144,13 @@ $C(8,3) = \frac{8!}{3!(8-3)!} = \frac{8!}{3! \cdot 5!} = \frac{8 \times 7 \times
 
 A committee of 4 members is to be formed from a group of 12 people. How many different ways can the committee be selected?
 
-$C(n,r) = \frac{n!}{r!(n-r)!}$  
-$C(12,4) = \frac{12!}{4!(12-4)!} = \frac{12!}{4! \cdot 8!} = \frac{12 \times 11 \times 10 \times 9 \times 8 \times 7 \times \ 6 \times 5 \times 4 \times 3 \times \ 2 \times 1}{(4 \times 3 \times \ 2 \times 1)(8 \times 7 \times 6 \times 5 \times 4 \times 3 \times 2 \times 1)} = \frac{12 \times 11 \times 10 \times 9}{4 \times 3 \times 2 \times 1} = \frac{11,880}{24} = 495$
+$C(n,r) = \dfrac{n!}{r!(n-r)!}$  
+
+$C(12,4) = \dfrac{12!}{4!(12-4)!} = \dfrac{12!}{4! \cdot 8!}$
+
+$\quad \quad \quad = \dfrac{12 \times 11 \times 10 \times 9 \times 8 \times 7 \times \ 6 \times 5 \times 4 \times 3 \times \ 2 \times 1}{(4 \times 3 \times \ 2 \times 1)(8 \times 7 \times 6 \times 5 \times 4 \times 3 \times 2 \times 1)}$
+
+$\quad \quad \quad = \dfrac{12 \times 11 \times 10 \times 9}{4 \times 3 \times 2 \times 1} = \dfrac{11,880}{24} = 495$
 
 ---
 
@@ -132,8 +158,13 @@ $C(12,4) = \frac{12!}{4!(12-4)!} = \frac{12!}{4! \cdot 8!} = \frac{12 \times 11 
 
 A team of 4 people is to be chosen from a group of 10. How many different teams can be formed?
 
-$C(n,r) = \frac{n!}{r!(n-r)!}$  
-$C(10,4) = \frac{10!}{4!(10-4)!} = \frac{10!}{4! \cdot 6!} = \frac{10 \times 9 \times 8 \times 7 \times \ 6 \times 5 \times 4 \times 3 \times \ 2 \times 1}{(4 \times 3 \times \ 2 \times 1)(6 \times 5 \times 4 \times 3 \times 2 \times 1)} = \frac{10 \times 9 \times 8 \times 7}{4 \times 3 \times 2 \times 1} = \frac{5,040}{24} = 210$
+$C(n,r) = \dfrac{n!}{r!(n-r)!}$  
+
+$C(10,4) = \dfrac{10!}{4!(10-4)!} = \dfrac{10!}{4! \cdot 6!}$
+
+$\quad \quad \quad = \dfrac{10 \times 9 \times 8 \times 7 \times \ 6 \times 5 \times 4 \times 3 \times \ 2 \times 1}{(4 \times 3 \times \ 2 \times 1)(6 \times 5 \times 4 \times 3 \times 2 \times 1)}$
+
+$\quad \quad \quad = \dfrac{10 \times 9 \times 8 \times 7}{4 \times 3 \times 2 \times 1} = \dfrac{5,040}{24} = 210$
 
 ---
 
@@ -141,8 +172,13 @@ $C(10,4) = \frac{10!}{4!(10-4)!} = \frac{10!}{4! \cdot 6!} = \frac{10 \times 9 \
 
 From a deck of 52 cards, how many ways can you choose 5 cards for a hand in a card game?
 
-$C(n,r) = \frac{n!}{r!(n-r)!}$  
-$C(52,5) = \frac{52!}{5!(52-5)!} = \frac{52!}{5! \cdot 47!} = \frac{52 \times 51 \times 50 \times 49 \times 48}{5 \times 4 \times 3 \times 2 \times 1} = \frac{311,875,200}{120} = 2,598,960$
+$C(n,r) = \dfrac{n!}{r!(n-r)!}$  
+
+$C(52,5) = \dfrac{52!}{5!(52-5)!} = \dfrac{52!}{5! \cdot 47!}$
+
+$\quad \quad \quad = \dfrac{52 \times 51 \times 50 \times 49 \times 48}{5 \times 4 \times 3 \times 2 \times 1}$
+
+$\quad \quad \quad = \dfrac{311,875,200}{120} = 2,598,960$
 
 ---
 

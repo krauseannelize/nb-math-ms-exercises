@@ -113,7 +113,7 @@ $P(A) = 0$
 
 From a standard deck of 52 cards, let event $A$ be drawing a red queen and event $B$ be drawing any red card. Since every red queen is also a red card, we have $A \subseteq B$.
 
-$P(A) = \dfrac{N(A)}{N(S)} = \dfrac{\text{Queen of Hearts, Queen of Diamonds}}{\text{Number of cards in deck}} = \dfrac{2}{52} = \frac{1}{26} \approx 0.0385$
+$P(A) = \dfrac{N(A)}{N(S)} = \dfrac{\text{Queen of Hearts, Queen of Diamonds}}{\text{Number of cards in deck}} = \dfrac{2}{52} = \dfrac{1}{26} \approx 0.0385$
 
 $P(B) = \dfrac{N(B)}{N(S)} = \dfrac{\text{Number of red cards}}{\text{Number of cards in deck}} = \dfrac{26}{52} = \dfrac{1}{2} = 0.5$
 
@@ -160,7 +160,7 @@ The probability that a randomly selected student either plays a musical instrume
 
 $P(A \cup B) = P(A) + P(B) - P(A \cap B)$
 
-$P(A \cup B) = \frac{18}{30} + \frac{15}{30} - \frac{10}{30} = \frac{18 + 15 - 10}{30} = \frac{23}{30}$
+$P(A \cup B) = \dfrac{18}{30} + \dfrac{15}{30} - \dfrac{10}{30} = \dfrac{18 + 15 - 10}{30} = \dfrac{23}{30}$
 
 ---
 

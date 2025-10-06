@@ -11,19 +11,19 @@ $D$ | A face card (jack, queen, or king).
 
 ### Solution | Event A
 
-$P(A) = \frac{N(A)}{N(S)} = \frac{\text{Number of Hearts}}{\text{Number of cards in deck}} = \frac{13}{52} = 0.25$
+$P(A) = \dfrac{N(A)}{N(S)} = \dfrac{\text{Number of Hearts}}{\text{Number of cards in deck}} = \dfrac{13}{52} = 0.25$
 
 ### Solution | Event B
 
-$P(B) = \frac{N(B)}{N(S)} = \frac{\text{1 King per Suit}}{\text{Number of cards in deck}} = \frac{4}{52} \approx 0.0769$
+$P(B) = \dfrac{N(B)}{N(S)} = \dfrac{\text{1 King per Suit}}{\text{Number of cards in deck}} = \dfrac{4}{52} \approx 0.0769$
 
 ### Solution | Event C
 
-$P(C) = \frac{N(C)}{N(S)} = \frac{\text{Number of red cards}}{\text{Number of cards in deck}} = \frac{26}{52} = 0.5$
+$P(C) = \dfrac{N(C)}{N(S)} = \dfrac{\text{Number of red cards}}{\text{Number of cards in deck}} = \dfrac{26}{52} = 0.5$
 
 ### Solution | Event D
 
-$P(D) = \frac{N(D)}{N(S)} = \frac{\text{3 Face cards per Suit}}{\text{Number of cards in deck}} = \frac{3 x 4}{52} = \frac{12}{52} \approx 0.2308$
+$P(D) = \dfrac{N(D)}{N(S)} = \dfrac{\text{3 Face cards per Suit}}{\text{Number of cards in deck}} = \dfrac{3 x 4}{52} = \dfrac{12}{52} \approx 0.2308$
 
 ---
 
@@ -40,21 +40,21 @@ $E$ | white and black
 
 ### Solution | Event A
    
-$P(A) = \frac{N(A)}{N(S)} = \frac{\text{Number of white balls}}{\text{Number of all balls}} =\frac{15}{15 + 10 + 5} = \frac{15}{30} = \frac{1}{2} = 0.5$
+$P(A) = \dfrac{N(A)}{N(S)} = \dfrac{\text{Number of white balls}}{\text{Number of all balls}} =\dfrac{15}{15 + 10 + 5} = \dfrac{15}{30} = \dfrac{1}{2} = 0.5$
 
 ### Solution | Event B
 
-$P(B) = \frac{N(B)}{N(S)} = \frac{\text{Number of red balls}}{\text{Number of all balls}} =\frac{10}{15 + 10 + 5} = \frac{10}{30} = \frac{1}{3} \approx 0.3333$
+$P(B) = \dfrac{N(B)}{N(S)} = \dfrac{\text{Number of red balls}}{\text{Number of all balls}} =\dfrac{10}{15 + 10 + 5} = \dfrac{10}{30} = \dfrac{1}{3} \approx 0.3333$
 
 ### Solution | Event C
 
-$P(C) = \frac{N(C)}{N(S)} = \frac{\text{Number of black balls}}{\text{Number of all balls}} =\frac{5}{15 + 10 + 5} = \frac{5}{30} = \frac{1}{6} \approx 0.1667$
+$P(C) = \dfrac{N(C)}{N(S)} = \dfrac{\text{Number of black balls}}{\text{Number of all balls}} =\dfrac{5}{15 + 10 + 5} = \dfrac{5}{30} = \dfrac{1}{6} \approx 0.1667$
 
 ### Solution | Event D
 
 _Note: Use additive principle for 2 distinct events that cannot happen simultaneously_
 
-$P(D) = P(A) + P(C) = \frac{15}{30} + \frac{5}{30} = \frac{20}{30} = \frac{2}{3} \approx 0.667$
+$P(D) = P(A) + P(C) = \dfrac{15}{30} + \dfrac{5}{30} = \dfrac{20}{30} = \dfrac{2}{3} \approx 0.667$
 
 ### Solution | Event E
 

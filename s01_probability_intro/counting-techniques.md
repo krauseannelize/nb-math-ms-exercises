@@ -54,8 +54,9 @@ $P_4 = 4! = 4 \times 3 \times 2 \times 1 = 24$
 Students competing:  $n = 8$  
 Positions to fill:  $r = 3$  
 
-$P(n,r) = \frac{n!}{(n-r)!}$  
-$P(8,3) = \frac{8!}{(8-3)!} = \frac{8!}{5!} = \frac{8 \times 7 \times 6 \times 5 \times 4 \times 3 \times 2 \times 1}{5 \times 4 \times 3 \times 2 \times 1} = 8 \times 7 \times 6 = 336$
+$P(n,r) = \dfrac{n!}{(n-r)!}$
+
+$P(8,3) = \dfrac{8!}{(8-3)!} = \dfrac{8!}{5!} = \dfrac{8 \times 7 \times 6 \times 5 \times 4 \times 3 \times 2 \times 1}{5 \times 4 \times 3 \times 2 \times 1} = 8 \times 7 \times 6 = 336$
 
 The common $5 \times 4 \times 3 \times 2 \times 1$ is cancelled.
 
@@ -73,8 +74,9 @@ $n^r = 10^4 = 10,000$
 
 You have a basket containing 5 different types of fruits. How many ways can you choose 3 types of fruit from the basket when order doesn't matter?
 
-$C(n,r) = \frac{n!}{r!(n-r)!}$  
-$C(5,3) = \frac{5!}{3!(5-3)!} = \frac{5!}{3! \cdot 2!} = \frac{5 \times 4 \times 3 \times \ 2 \times 1}{(3 \times \ 2 \times 1)(2 \times 1)} = \frac{5 \times 4}{2 \times 1} = \frac{20}{2} = 10$
+$C(n,r) = \dfrac{n!}{r!(n-r)!}$
+
+$C(5,3) = \dfrac{5!}{3!(5-3)!} = \dfrac{5!}{3! \cdot 2!} = \dfrac{5 \times 4 \times 3 \times \ 2 \times 1}{(3 \times \ 2 \times 1)(2 \times 1)} = \dfrac{5 \times 4}{2 \times 1} = \dfrac{20}{2} = 10$
 
 ---
 
