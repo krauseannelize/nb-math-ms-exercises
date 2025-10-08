@@ -15,6 +15,9 @@ This is my personal Math Foundation learning journal from the Masterschool Data 
 ## Sprint 2: Conditional Probability and Distributions
 
 1. [Conditional Probability](/s02_conditional_probability/conditional-probability.md)
+2. [Conditional Probability Exercises](/s02_conditional_probability/exercises-conditional-probability.md)
+3. [Bayes' Theorem](/s02_conditional_probability/bayes-theorem.md)
+4. [Bayes' Theorem Exercises](/s02_conditional_probability/exercises-bayes-theorem.md)
 
 ## Sprint 3: Continuous Distributions
 

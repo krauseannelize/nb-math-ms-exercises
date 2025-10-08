@@ -94,3 +94,10 @@ $P(Y \mid R) = \dfrac{P(Y) \cdot P(R \mid Y)}{P(R)} = \dfrac{0.50 \times 0.50}{0
 $P(G \mid R) = \dfrac{P(G) \cdot P(R \mid G)}{P(R)} = \dfrac{0.50 \times 0.25}{0.375} = \dfrac{0.125}{0.375} = \dfrac{1}{3} \approx 0.33$
 
 If a red marble is drawn, it is most likely to have come from the **yellow box**, with probability $0.67$.
+
+---
+
+Proceed to next section: [Bayes' Theorem Exercises](/s02_conditional_probability/exercises-bayes-theorem.md)
+
+[(back to top)](#table-of-contents)  
+[(back to README)](/README.md)

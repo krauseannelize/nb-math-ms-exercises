@@ -148,3 +148,7 @@ Two fair six-sided dice are rolled. Let event $A$ be rolling a 4 on the first di
 ➡️ **Independent** because the outcome of the first die roll does not incluence the outcome of the second die roll.
 
 ---
+
+Proceed to next section: [Bayes' Theorem](/s02_conditional_probability/bayes-theorem.md)
+ 
+[(back to README)](/README.md)
