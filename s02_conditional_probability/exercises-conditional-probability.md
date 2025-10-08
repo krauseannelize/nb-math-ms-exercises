@@ -124,3 +124,27 @@ $P(B \mid A) = \dfrac{90}{99} = \dfrac{10}{11} \approx 0.91$
 $P(A \cap B) = P(A) \times P(B \mid A) = \dfrac{1}{10} \times \dfrac{10}{11} = \dfrac{1 \times 10}{10 \times 11} = \dfrac{10}{110} = \dfrac{1}{11} = 0.091$
 
 ---
+
+## Exercise 7
+
+A family is planning a picnic, and the probability of rain on the chosen day is 30%. The family also needs a sunny day to enjoy their outdoor activities. Let event $A$ be "it rains," and event $B$ be the family has a picnic. Are the events $A$ and $B$ independent or dependent?
+
+➡️ **Dependent** because whether the family has a picnic $B$ depends on whether it rains $A$.
+
+---
+
+## Exercise 8
+
+A box contains 6 red balls and 4 blue balls. Two balls are drawn one after the other without replacement. Let event $A$ be drawing a red ball on the first draw, and event $B$ be drawing a red ball on the second draw. Are the events $A$ and $B$ independent or dependent?
+
+➡️ **Dependent** because the outcome of the first drawn ball affects the total number of balls in the box, which affects the probability on the second draw.
+
+---
+
+## Exercise 9
+
+Two fair six-sided dice are rolled. Let event $A$ be rolling a 4 on the first die, and event $B$ be rolling an even number on the second die. Are the events $A$ and $B$ independent or dependent?
+
+➡️ **Independent** because the outcome of the first die roll does not incluence the outcome of the second die roll.
+
+---

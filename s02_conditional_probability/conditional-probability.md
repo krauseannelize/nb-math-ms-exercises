@@ -102,4 +102,9 @@ When events cannot occur at the same time, they are called **mutually exclusive*
 
 $P(A \text{ and } B) = 0$
 
-[(back to top)](#table-of-contents)
+---
+
+Proceed to next section: [Conditional Probability Exercises](/s02_conditional_probability/exercises-conditional-probability.md)
+
+[(back to top)](#table-of-contents)  
+[(back to README)](/README.md)
