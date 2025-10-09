@@ -149,6 +149,33 @@ $P(A \cap B) = P(A) \times P(B \mid A) = \dfrac{1}{10} \times \dfrac{10}{11} = \
 
 ---
 
+## Exercise 10
+
+>There are 10 apples in a basket: 6 red and 4 green. It is known that 3 of the apples are spoiled, and all the spoiled apples are red. You randomly pick one apple. What is the probability that it is red, given that it is not spoiled?
+
+$R$ | Red apple  
+$G$ | Green apple  
+$S$ | Spoiled apple  
+$\lnot S$ | Apple not spoiled
+
+$P(R) = \dfrac{6}{10}$  
+
+$P(G) = \dfrac{4}{10}$  
+
+$P(S) = \dfrac{3}{10}$  
+
+$P(\lnot S) = \dfrac{7}{10}$  
+
+Probability the apple is red and not spoiled:
+
+$P(R \cap \lnot S) = \dfrac{\text{Number of red and not spoiled apples}}{\text{total apples}} = \dfrac{3}{10}$
+
+Probability the apple is red given that it is not spoiled:
+
+$P(R \mid \lnot S) = \dfrac{P(R \cap \lnot S)}{P(\lnot S)} = \dfrac{3}{10} \div \dfrac{7}{10} = \dfrac{3}{10} \times \dfrac{10}{7} = \dfrac{3 \times 10}{10 \times 7} = \dfrac{30}{70} = \dfrac{3}{7} \approx 0.43$
+
+---
+
 Proceed to next section: [Bayes' Theorem](/s02_conditional_probability/bayes-theorem.md)
  
 [(back to README)](/README.md)
