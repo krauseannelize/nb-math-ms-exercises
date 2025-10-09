@@ -2,7 +2,7 @@
 
 ## Exercise 1
 
-A security system uses a 5-digit passcode, where each digit is unique and chosen from the numbers 0–9. What is the probability that a randomly generated passcode is 12345?
+>A security system uses a 5-digit passcode, where each digit is unique and chosen from the numbers 0–9. What is the probability that a randomly generated passcode is 12345?
 
 $P(n,r) = \dfrac{n!}{(n-r)!}$  
 
@@ -20,7 +20,7 @@ $P(A) = \dfrac{N(A)}{N(S)} = \dfrac{1}{30,240}$
 
 ## Exercise 2
 
-There are 10 people participating in a raffle where the first, second, and third prizes are awarded. What is the probability that Anna, Ben, and Charlie win the first, second, and third prizes in that exact order?
+>There are 10 people participating in a raffle where the first, second, and third prizes are awarded. What is the probability that Anna, Ben, and Charlie win the first, second, and third prizes in that exact order?
 
 $P(n,r) = \dfrac{n!}{(n-r)!}$  
 $P(10,3) = \dfrac{10!}{(10-3)!} = \dfrac{10!}{7!}$
