@@ -50,7 +50,7 @@ Before we can state and prove useful theorems in probability, we need to recall 
 | **Empty set** | The impossible event with no outcomes | $\varnothing$ |
 | **Union** | All the elements of set $A$ and all the elements of set $B$ | $A \cup B$ |
 | **Intersection** | All the elements that are present in both $A$ and $B$ | $A \cap B$ |
-| **Complement** | The event that $A$ does not occur | $A'$ |
+| **Complement** | The event that $A$ does not occur | $A'$, $A^c$, $\bar{A}$, or $\lnot A$ |
 | **Subset** | All elements of $A$ are also elements of $B$ | $A \subseteq B$ |
 | **Cartesian product ($A \times B$)** | The set of all ordered pairs $(a,b)$ with $a$ in $A$ and $b$ in $B$ | $A \times B =$ { $(a,b) \mid a \in A \text{ and}\ b \in B$ } |
 
