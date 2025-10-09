@@ -176,6 +176,34 @@ $P(R \mid \lnot S) = \dfrac{P(R \cap \lnot S)}{P(\lnot S)} = \dfrac{3}{10} \div 
 
 ---
 
+## Exercise 11
+
+>An urn contains:
+>
+>- 4 red balls $R$,
+>- 5 blue balls $B$,
+>- 6 green balls $G$.
+>
+>One ball is drawn randomly. If it is red, a second ball is drawn. What is the probability that both are red?
+
+$P(R) = \dfrac{4}{15}$  
+
+$P(B) = \dfrac{5}{15}$  
+
+$P(G) = \dfrac{6}{15}$  
+
+Probability of getting a red first and then drawing another red:
+
+$P(R_2 \mid R_1) = \dfrac{3}{14}$
+
+Joint probability of $R_1$ and $R_2$:
+
+$P(R_1 \cap R_2) = P(R_1) \times P(R_2 \mid R_1) = \dfrac{4}{15} \times \dfrac{3}{14} = \dfrac{12}{210} = \dfrac{2}{35} \approx 0.057$
+
+The probability that both balls are red is $0.057$ or $5.7\%$.
+
+---
+
 Proceed to next section: [Bayes' Theorem](/s02_conditional_probability/bayes-theorem.md)
  
 [(back to README)](/README.md)
